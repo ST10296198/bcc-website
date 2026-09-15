@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/layout/Header";
 import NoiseFilter from "./components/layout/NoiseFilter";
+import ScrollToHash from "./components/layout/ScrollToHash";
 
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -12,10 +13,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <NoiseFilter />
+      <ScrollToHash />
 
       <Header />
 
-      <main className="w-full pt-20 bg-surface">
+      <main className="w-full pt-24 bg-surface">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />

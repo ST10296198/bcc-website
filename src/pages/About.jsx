@@ -119,7 +119,7 @@ export default function About() {
                   </span>
 
                   <span className="font-title-md text-title-md text-surface-container-lowest">
-                    Trinus inspecting SMD micro-circuitry on an enterprise
+                    Our technician inspecting SMD micro-circuitry on an enterprise
                     logic board
                   </span>
 

@@ -210,7 +210,7 @@ export default function Portfolio() {
                     </span>
 
                     <span className="rounded-full bg-surface-container-lowest/90 px-space-sm py-space-2xs font-label-sm text-label-sm text-on-surface-variant backdrop-blur-md">
-                      Bethal &amp; Secunda
+                      Mpumalanga Mountains Hills
                     </span>
 
                   </div>
@@ -436,7 +436,7 @@ export default function Portfolio() {
                 <div className="flex items-center justify-between bg-surface-container-lowest p-space-md">
 
                   <span className="font-label-md text-label-md font-medium text-on-surface-variant">
-                    Bethel International Congress
+                    Bethal International Congress
                   </span>
 
                   <span className="material-symbols-outlined text-[20px] text-secondary">

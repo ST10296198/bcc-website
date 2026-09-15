@@ -85,8 +85,8 @@
   --spacing-space-3xl: 4rem;
 
   --spacing-gutter-mobile: 1rem;
-  --spacing-gutter-desktop: 1.5rem;
-  --spacing-container-max: 80rem;
+  --spacing-gutter-desktop: 2rem;
+  --spacing-container-max: 96rem;
 
   /* -------------------------------------------------------------
      TYPOGRAPHY
@@ -106,8 +106,8 @@
   --font-label-md: "Inter", sans-serif;
   --font-label-sm: "Inter", sans-serif;
 
-  --text-display-lg: 48px;
-  --text-display-lg--line-height: 56px;
+  --text-display-lg: 56px;
+  --text-display-lg--line-height: 64px;
   --text-display-lg--letter-spacing: -0.02em;
   --text-display-lg--font-weight: 700;
 
@@ -116,8 +116,8 @@
   --text-display-lg-mobile--letter-spacing: -0.02em;
   --text-display-lg-mobile--font-weight: 700;
 
-  --text-headline-lg: 32px;
-  --text-headline-lg--line-height: 40px;
+  --text-headline-lg: 36px;
+  --text-headline-lg--line-height: 44px;
   --text-headline-lg--letter-spacing: -0.015em;
   --text-headline-lg--font-weight: 600;
 
@@ -126,13 +126,13 @@
   --text-headline-lg-mobile--letter-spacing: -0.015em;
   --text-headline-lg-mobile--font-weight: 600;
 
-  --text-headline-md: 24px;
-  --text-headline-md--line-height: 32px;
+  --text-headline-md: 28px;
+  --text-headline-md--line-height: 36px;
   --text-headline-md--letter-spacing: -0.01em;
   --text-headline-md--font-weight: 600;
 
-  --text-headline-sm: 20px;
-  --text-headline-sm--line-height: 28px;
+  --text-headline-sm: 22px;
+  --text-headline-sm--line-height: 30px;
   --text-headline-sm--font-weight: 600;
 
   --text-title-md: 18px;
