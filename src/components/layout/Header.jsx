@@ -4,6 +4,7 @@ import logo from "../../assets/images/logo.png";
 
 const navLinkClass = ({ isActive }) =>
   [
+     "cursor-target",
     "inline-flex",
     "items-center",
     "justify-center",
@@ -35,11 +36,11 @@ export default function Header() {
   className="flex items-center gap-space-sm md:gap-space-md shrink-0"
   aria-label="BCC Tech & Creative Centre home"
 >
-  <img
-    src={logo}
-    alt="BCC Tech & Creative Centre"
-    className="h-9 sm:h-10 md:h-11 lg:h-12 xl:h-14 w-auto max-w-[190px] object-contain"
-  />
+<img
+  src={logo}
+  alt="BCC Tech & Creative Centre"
+  className="h-11 sm:h-12 md:h-14 lg:h-16 xl:h-18 w-auto max-w-[240px] object-contain"
+/>
 
   <div className="flex flex-col">
     <span className="font-headline-sm text-headline-sm md:font-headline-md md:text-headline-md text-on-surface tracking-tight leading-tight">
@@ -47,7 +48,7 @@ export default function Header() {
     </span>
 
     <span className="font-label-sm text-label-sm md:font-label-md md:text-label-md text-secondary tracking-wide">
-      Tech &amp; Creative
+      Living Tommorrow, Today
     </span>
   </div>
 </NavLink>
@@ -97,7 +98,7 @@ export default function Header() {
                   {/* Repairs */}
                   <NavLink
                     to="/services#tech-services"
-                    className="flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
+                    className="cursor-target flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
                   >
                     <span className="material-symbols-outlined text-primary text-[21px]">
                       memory
@@ -119,7 +120,7 @@ export default function Header() {
                   {/* Custom Builds */}
                   <NavLink
                     to="/services#tech-services"
-                    className="flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
+                    className="cursor-target flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
                   >
                     <span className="material-symbols-outlined text-primary text-[21px]">
                       water_drop
@@ -141,7 +142,7 @@ export default function Header() {
                   {/* Creative */}
                   <NavLink
                     to="/services#creative-studio"
-                    className="flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
+                    className="cursor-target flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
                   >
                     <span className="material-symbols-outlined text-primary text-[21px]">
                       palette
@@ -163,7 +164,7 @@ export default function Header() {
                   {/* Printing */}
                   <NavLink
                     to="/services#tech-services"
-                    className="flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
+                    className="cursor-target flex items-start gap-space-md rounded-xl p-space-md hover:bg-surface-container transition-colors"
                   >
                     <span className="material-symbols-outlined text-primary text-[21px]">
                       print
@@ -207,7 +208,7 @@ export default function Header() {
           {/* Call Desk +27769328706 */}
           <a
             href="tel:+27769328706"
-            className="hidden xl:inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl font-label-md text-label-md font-medium text-on-surface hover:bg-surface-container transition-colors"
+            className="cursor-target hidden xl:inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl font-label-md text-label-md font-medium text-on-surface hover:bg-surface-container transition-colors"
           >
             <span className="material-symbols-outlined text-[20px] text-primary">
               call
@@ -221,7 +222,7 @@ export default function Header() {
           {/* Book Repair */}
           <Link
             to="/#contact-intake"
-            className="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-colors shadow-md"
+            className="cursor-target inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-colors shadow-md"
           >
             <span className="material-symbols-outlined text-[20px]">
               build

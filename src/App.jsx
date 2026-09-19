@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/layout/Header";
 import NoiseFilter from "./components/layout/NoiseFilter";
 import ScrollToHash from "./components/layout/ScrollToHash";
+import TargetCursor from "./components/react-bits/TargetCursor";
+
 
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -14,6 +16,8 @@ export default function App() {
     <BrowserRouter>
       <NoiseFilter />
       <ScrollToHash />
+      <TargetCursor cursorColor="#0048af" spinDuration={2} />
+
 
       <Header />
 

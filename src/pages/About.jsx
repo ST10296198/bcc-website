@@ -722,7 +722,7 @@ export default function About() {
                 </span>
 
                 <p className="font-body-md text-body-md text-on-surface-variant">
-                  Trinus launches an after-hours bench providing custom PC
+                  Trynos launches an after-hours bench providing custom PC
                   assembly, overclocking solutions, and micro-soldered repairs.
                 </p>
 

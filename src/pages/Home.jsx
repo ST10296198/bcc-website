@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 import logo from "../assets/images/logo.png";
 import locationMap from "../assets/images/about/location-map.jpg";
+
+import CountUp from "../components/react-bits/CountUp";
+import VariableProximity from "../components/react-bits/VariableProximity";
 
 import project01 from "../assets/images/homepage/gallery/project-01.jpg";
 import project02 from "../assets/images/homepage/gallery/project-02.jpg";
@@ -14,6 +17,7 @@ export default function Home() {
   const [ticketSubmitted, setTicketSubmitted] = useState(false);
   const [contactPanel, setContactPanel] = useState(null);
   const [copied, setCopied] = useState(false);
+   const heroTitleRef = useRef(null);
 
   const copyContactNumber = async () => {
     try {
@@ -187,13 +191,23 @@ export default function Home() {
                 <p className="mb-space-sm font-label-sm text-label-sm font-semibold uppercase tracking-[0.16em] text-primary">
                   BCC Tech &amp; Creative Centre
                 </p>
-
-                <h1 className="font-display-lg-mobile text-display-lg-mobile leading-[1.15] tracking-tight text-on-surface md:text-display-lg">
-                  High-Precision Computing &amp; Creative Production{" "}
-                  <span className="text-primary-container">
-                    Under One Roof.
-                  </span>
-                </h1>
+            <h1
+              ref={heroTitleRef}
+              className="font-display-lg-mobile text-display-lg-mobile leading-[1.15] tracking-tight text-on-surface md:text-display-lg"
+            >
+            <VariableProximity
+              label="High-Precision Computing & Creative Production"
+              containerRef={heroTitleRef}
+              radius={250}
+              falloff="linear"
+              fromFontVariationSettings="'wght' 100"
+              toFontVariationSettings="'wght' 1000"
+              style={{
+                fontFamily: '"Roboto Flex", sans-serif',
+              }}
+            />{" "}
+              <span className="text-primary-container">Under One Roof.</span>
+            </h1>
 
                 <p className="mt-space-lg max-w-3xl font-body-lg text-body-lg text-on-surface-variant">
                   Dependable component-level hardware repairs, custom
@@ -1011,7 +1025,7 @@ export default function Home() {
 
               <p className="mt-space-lg max-w-2xl font-body-lg text-body-lg text-on-surface-variant">
                 Over a decade anchoring community computing and commercial
-                creative demands. Founded in 2011, BCC Tech &amp; Creative
+                creative demands. Founded in 2018, BCC Tech &amp; Creative
                 Centre bridged the gap between sterile IT depots and detached
                 design agencies.
               </p>
@@ -1026,7 +1040,7 @@ export default function Home() {
               <div className="mt-space-xl grid grid-cols-2 gap-space-sm">
                 <div className="rounded-xl bg-surface-container-low p-space-lg">
                   <p className="font-headline-md text-headline-md text-primary">
-                    13+
+                    8+
                   </p>
 
                   <p className="mt-space-2xs font-title-md text-title-md text-on-surface">
@@ -1034,13 +1048,13 @@ export default function Home() {
                   </p>
 
                   <p className="mt-space-xs font-body-md text-body-md text-on-surface-variant">
-                    Continuous service since 2011
+                    Continuous service since 2018
                   </p>
                 </div>
 
                 <div className="rounded-xl bg-surface-container-low p-space-lg">
                   <p className="font-headline-md text-headline-md text-primary">
-                    18.5k
+                    <CountUp from={0} to={3.5} duration={2} />k
                   </p>
 
                   <p className="mt-space-2xs font-title-md text-title-md text-on-surface">
@@ -2013,7 +2027,7 @@ export default function Home() {
               </p>
 
               <p className="mt-space-sm font-label-sm text-label-sm font-semibold text-primary">
-                Registered Lab Facility #ZA-IT-2011-8942
+                Registered Lab Facility #ZA-IT-2018-8942
               </p>
             </div>
 
