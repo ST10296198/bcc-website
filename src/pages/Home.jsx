@@ -169,13 +169,13 @@ export default function Home() {
         <div className="relative z-10 mx-auto max-w-[80rem] px-gutter-mobile md:px-gutter-desktop">
           <div className="mb-space-xl inline-flex items-center rounded-full border border-outline-variant/40 bg-surface-container-lowest/80 px-space-sm py-space-xs shadow-sm backdrop-blur-sm">
             <span className="font-label-sm text-label-sm text-on-surface-variant">
-              14,000+ Hardware Restorations
+              3,500+ Hardware Restorations
             </span>
 
             <span className="mx-space-xs text-outline-variant">•</span>
 
             <span className="font-label-sm text-label-sm text-on-surface-variant">
-              Serving Since 2011
+              Serving Since 2018
             </span>
 
             <span className="mx-space-xs text-outline-variant">•</span>
